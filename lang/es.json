@@ -11,7 +11,7 @@
                     "placeholder": "[Ascendencia]"
                 },
                 "Path": {
-                    "placeholder": "[Sendero]"
+                    "placeholder": "[Camino]"
                 },
                 "Specialties": {
                     "placeholder": "[Especialidad]"
@@ -226,7 +226,7 @@
                 "DropFavorite": "Soltar favorito",
                 "AncestryPlaceholder": "Añadir ascendencia",
                 "CulturePlaceholder": "Añadir cultura",
-                "PathPlaceholder": "Añadir sendero",
+                "PathPlaceholder": "Añadir camino",
                 "EndScene": "Finalizar escena",
                 "ShortRest": "Descanso corto",
                 "LongRest": "Descanso largo",
@@ -361,9 +361,9 @@
                     "desc_placeholder": "Edita esto para definir una de las muchas culturas de la ambientación. Incluye también cualquier regla especial que los jugadores deban leer."
                 },
                 "Path": {
-                    "label": "Sendero",
-                    "label_plural": "Senderos",
-                    "desc_placeholder": "Edita esto para describir el tipo de personajes que representa este sendero de progresión."
+                    "label": "Camino",
+                    "label_plural": "Caminos",
+                    "desc_placeholder": "Edita esto para describir el tipo de personajes que representa este camino de progresión."
                 },
                 "Specialty": {
                     "label": "Especialidad",
@@ -506,7 +506,7 @@
             "Talent": {
                 "Type": {
                     "Ancestry": "Ascendencia",
-                    "Path": "Sendero",
+                    "Path": "Camino",
                     "Power": "Poder"
                 },
                 "Prerequisite": {
@@ -1072,12 +1072,12 @@
                 "Ancestry": {
                     "Size": "Tamaño",
                     "Advancement": "Avance",
-                    "FreePath": "Sendero gratuito",
+                    "FreePath": "Camino gratuito",
                     "FreeTalents": "Talentos gratuitos",
                     "BonusTalents": "Talentos adicionales",
                     "Restrictions": "Restricciones",
-                    "PathReferencePlaceholder": "Suelta un sendero aquí para establecer el sendero gratuito",
-                    "TalentIdDescription": "La columna de identificador debe contener el identificador del talento al que quieres que tengan acceso los personajes con esta ascendencia. El identificador del sendero solo puede contener letras (a-z), números (0-9), guiones (-) y guiones bajos (_).",
+                    "PathReferencePlaceholder": "Suelta un camino aquí para establecer el camino gratuito",
+                    "TalentIdDescription": "La columna de identificador debe contener el identificador del talento al que quieres que tengan acceso los personajes con esta ascendencia. El identificador del camino solo puede contener letras (a-z), números (0-9), guiones (-) y guiones bajos (_).",
                     "Component": {
                         "AdvancementTalentList": {
                             "DropTalent": "Suelta un talento aquí para añadirlo a la lista",
@@ -1091,8 +1091,8 @@
                     }
                 },
                 "Specialty": {
-                    "PathId": "Identificador del sendero",
-                    "PathIdDescription": "El identificador del sendero al que pertenece esta especialidad. El identificador del sendero solo puede contener letras (a-z), números (0-9), guiones (-) y guiones bajos (_)."
+                    "PathId": "Identificador del camino",
+                    "PathIdDescription": "El identificador del camino al que pertenece esta especialidad. El identificador del camino solo puede contener letras (a-z), números (0-9), guiones (-) y guiones bajos (_)."
                 },
                 "Loot": {
                     "IsMoney": "Es dinero",
@@ -1147,9 +1147,9 @@
                     "HasModality": "Tiene modalidad"
                 },
                 "Talent": {
-                    "PathId": "Identificador del sendero",
-                    "PathIdPlaceholder": "Identificador del sendero",
-                    "PathIdDescription": "El identificador del sendero al que pertenece este talento.",
+                    "PathId": "Identificador del camino",
+                    "PathIdPlaceholder": "Identificador del camino",
+                    "PathIdDescription": "El identificador del camino al que pertenece este talento.",
                     "SpecialtyId": "Identificador de la especialidad",
                     "SpecialtyIdPlaceholder": "Identificador de la especialidad — Opcional",
                     "SpecialtyIdDescription": "El identificador de la especialidad a la que pertenece este talento.",
@@ -1195,7 +1195,7 @@
                     "Title": "Talentos",
                     "TalentTree": {
                         "Label": "Árbol de talentos",
-                        "Hint": "Árbol de talentos que contiene todos los talentos de este sendero. Este árbol se muestra en la pestaña \"talentos\"."
+                        "Hint": "Árbol de talentos que contiene todos los talentos de este camino. Este árbol se muestra en la pestaña \"talentos\"."
                     }
                 },
                 "EventsList": {
@@ -1641,7 +1641,7 @@
         "Item": {
             "culture": "Cultura",
             "ancestry": "Ascendencia",
-            "path": "Sendero",
+            "path": "Camino",
             "connection": "Conexión",
             "goal": "Meta",
             "injury": "Lesión",
@@ -1746,9 +1746,9 @@
         },
         "Macro": {
             "StartingPath": {
-                "Set": "Se estableció el sendero inicial {path} para {actor}. Habilidad inicial establecida: {skill}.",
-                "Replaced": "Se sustituyó el sendero inicial {oldPath} por {newPath} para {actor}. Habilidad inicial establecida: {skill}.",
-                "Unset": "Se eliminó el sendero inicial de {actor}. Se eliminó la habilidad inicial: {skill}."
+                "Set": "Se estableció el camino inicial {path} para {actor}. Habilidad inicial establecida: {skill}.",
+                "Replaced": "Se sustituyó el camino inicial {oldPath} por {newPath} para {actor}. Habilidad inicial establecida: {skill}.",
+                "Unset": "Se eliminó el camino inicial de {actor}. Se eliminó la habilidad inicial: {skill}."
             }
         }
     }

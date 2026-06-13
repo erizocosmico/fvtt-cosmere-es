@@ -2,7 +2,7 @@
   "id": "cosmere-es",
   "title": "Translation: Español [Cosmere RPG]",
   "description": "Unofficial spanish translation of the Cosmere RPG system for FoundryVTT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
