@@ -1,0 +1,42 @@
+{
+  "id": "cosmere-es",
+  "title": "Translation: Español [Cosmere RPG]",
+  "description": "Unofficial spanish translation of the Cosmere RPG system for FoundryVTT",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Miguel Molina",
+      "email": "miguel@erizocosmi.co",
+      "discord": "erizocosmico",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "cosmere-rpg",
+        "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/main/src/system.json",
+        "compatibility": {
+          "minimum": "13.346",
+          "verified": "13.351"
+        },
+        "type": "system"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/erizocosmico/fvtt-cosmere-es",
+  "manifest": "https://raw.githubusercontent.com/erizocosmico/fvtt-cosmere-es/main/module.json",
+  "download": "https://github.com/erizocosmico/fvtt-cosmere-es/archive/refs/heads/main.zip"
+}

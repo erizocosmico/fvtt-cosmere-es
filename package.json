@@ -1,0 +1,20 @@
+{
+  "name": "fvtt-cosmere-es",
+  "version": "1.0.0",
+  "description": "Unofficial spanish translation of the Cosmere RPG system for FoundryVTT",
+  "homepage": "https://github.com/erizocosmico/fvtt-cosmere-es#readme",
+  "bugs": {
+    "url": "https://github.com/erizocosmico/fvtt-cosmere-es/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erizocosmico/fvtt-cosmere-es.git"
+  },
+  "license": "MIT",
+  "author": "Miguel Molina <miguel@erizocosmi.co>",
+  "type": "commonjs",
+  "scripts": {
+    "update": "node ./tools/update.mjs",
+    "sync": "node ./tools/sync.mjs"
+  }
+}
